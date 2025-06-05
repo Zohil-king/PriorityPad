@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PlanCraft</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <div class="todo-container">
+    <h1>PriorityPad 📝</h1>
+
+    <div class="top-bar">
+      <label class="theme-toggle">
+        <input type="checkbox" id="theme-switch" />
+        Dark Mode
+      </label>
+      <button id="export-btn">⬇️ Export Tasks</button>
+    </div>
+
+    <div class="input-section">
+      <input type="text" id="task-input" placeholder="Add a new task..." />
+      <input type="date" id="due-date" />
+      <select id="priority">
+        <option value="">Priority</option>
+        <option value="High">🔥 High</option>
+        <option value="Medium">⚠️ Medium</option>
+        <option value="Low">✅ Low</option>
+      </select>
+      <select id="category">
+        <option value="">Category</option>
+        <option value="Work">💼 Work</option>
+        <option value="Personal">🏡 Personal</option>
+        <option value="Other">🧩 Other</option>
+      </select>
+      <button id="add-task-btn">Add</button>
+    </div>
+
+    <ul id="task-list"></ul>
+    <h1 style="color: rgb(245, 190, 88); font-size: 15px;">By Zohil Rahimzai 2025</h1>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
