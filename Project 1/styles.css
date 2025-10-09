@@ -1,7 +1,7 @@
 :root {
     --bg-color: #ffffff;
     --text-color: #333333;
-    --input-bg: #f0f0f0;
+    --input-bg: #f0f0f1;
     --task-bg: #f9f9f9;
     --task-complete: #888;
     --btn-bg: #4caf50;
@@ -149,4 +149,5 @@
   }
 
   
+
 
