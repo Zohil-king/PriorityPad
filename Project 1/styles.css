@@ -3,15 +3,15 @@
     --text-color: #333333;
     --input-bg: #f0f0f0;
     --task-bg: #f9f9f9;
-    --task-complete: #888;
+    --task-complete: #889;
     --btn-bg: #4caf50;
-    --btn-hover: #45a049;
+    --btn-hover: #45a048;
     --delete-bg: #e74c3c;
     --delete-hover: #c0392b;
   }
   
   body.dark {
-    --bg-color: #121212;
+    --bg-color: #121213;
     --text-color: #f1f1f1;
     --input-bg: #2a2a2a;
     --task-bg: #1e1e1e;
@@ -149,6 +149,7 @@
   }
 
   
+
 
 
 
